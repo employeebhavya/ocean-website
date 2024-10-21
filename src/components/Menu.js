@@ -67,7 +67,7 @@ function Menu() {
 
   const closeMenu = () => {
     gsap.to(popupMenuRef.current, {
-      right: "-100%",
+      right: "-102%",
       duration: 0.5,
       ease: "power3.inOut",
       onComplete: () => setPopupVisible(false),
