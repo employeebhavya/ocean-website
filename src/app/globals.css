@@ -89,6 +89,7 @@ section {
 .description {
   font-size: clamp(15px, 1vw, 1vw);
   font-weight: 400;
+  line-height: 22px;
 }
 .align-self-end {
   align-self: flex-end;

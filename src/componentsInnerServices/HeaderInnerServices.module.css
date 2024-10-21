@@ -119,4 +119,8 @@
   .row3HeaderInnerServices .columnRow3Is {
     width: 100% !important;
   }
+  .row3HeaderInnerServices .columnRow3Is:nth-child(2) p {
+    top: 10%;
+    text-align: left;
+  }
 }
