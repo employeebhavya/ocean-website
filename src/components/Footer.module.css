@@ -23,7 +23,7 @@
   justify-content: space-between;
 }
 .rowFooter .columnFooter:nth-child(1) img {
-  width: clamp(180px, 13vw, 13vw);
+  width: clamp(140px, 13vw, 13vw);
   height: auto;
 }
 .columnFooter a {

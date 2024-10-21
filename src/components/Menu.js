@@ -6,7 +6,6 @@ import Image from "next/image";
 import Styles from "./Menu.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { BsArrowUpRight } from "react-icons/bs";
 import { IoCloseCircle } from "react-icons/io5";
 import { RiMenu3Line } from "react-icons/ri"; // Importing the RiMenu3Line icon
 
@@ -123,7 +122,7 @@ function Menu() {
 
         <button onClick={togglePopup} className={Styles.popupButton}>
           <span>
-            <RiMenu3Line /> {/* Replaced text with icon */}
+            <RiMenu3Line size={20} />
           </span>
         </button>
       </div>

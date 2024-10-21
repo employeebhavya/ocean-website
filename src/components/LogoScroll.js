@@ -1,7 +1,7 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 
 const images = [
@@ -21,12 +21,31 @@ const images = [
 
 export default function LogoScroll() {
   const containerRef = useRef(null);
+  const [logoWidth, setLogoWidth] = useState(163); // Default logo width
+
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        // Set logo width to half of its original size for mobile devices
+        setLogoWidth(81.5);
+      } else {
+        // Reset to original width for larger screens
+        setLogoWidth(163);
+      }
+    };
+
+    handleResize(); // Check the initial screen size
+    window.addEventListener("resize", handleResize); // Update on window resize
+
+    return () => {
+      window.removeEventListener("resize", handleResize); // Clean up event listener
+    };
+  }, []);
 
   useEffect(() => {
     const container = containerRef.current;
 
     const totalImages = images.length;
-    const logoWidth = 163;
     const gap = 20;
     const totalWidth = (logoWidth + gap) * totalImages;
 
@@ -52,7 +71,7 @@ export default function LogoScroll() {
         x: gsap.utils.unitize((x) => parseFloat(x) % totalWidth),
       },
     });
-  }, []);
+  }, [logoWidth]); // Re-run animation when logoWidth changes
 
   return (
     <div
