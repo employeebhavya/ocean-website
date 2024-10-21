@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from "next/image";
 import Styles from "./Footer.module.css";
 import Link from "next/link";
@@ -8,7 +9,7 @@ function Footer() {
       <div className="container">
         <div className={Styles.rowFooter}>
           <div className={Styles.columnFooter}>
-            <Image src="/logo.png" alt="logo" width={100} height={100} />
+            <img src="/foot-logo.png" alt="image" />
           </div>
           <div className={Styles.columnFooter}>
             <div className={Styles.columnFooterRow}>
