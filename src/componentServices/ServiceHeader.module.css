@@ -31,6 +31,11 @@
   flex-direction: column;
   row-gap: clamp(12px, 1vh, 1vh);
 }
+.rowServiceHead img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
 
 /* logo-scroll-css */
 .logoScroll {

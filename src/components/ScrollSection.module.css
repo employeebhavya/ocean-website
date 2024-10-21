@@ -122,15 +122,15 @@
 }
 .circle {
   position: relative;
-  width: clamp(130px, 15vw, 15vw);
-  height: clamp(130px, 15vw, 15vw);
+  width: clamp(110px, 15vw, 15vw);
+  height: clamp(110px, 15vw, 15vw);
   border-radius: 50%;
   border: 1px solid white;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: clamp(14px, 1.5vw, 1.5vw);
+  font-size: clamp(13px, 1.5vw, 1.5vw);
   text-align: center;
 }
 
