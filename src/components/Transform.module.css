@@ -15,8 +15,8 @@
   display: flex;
   flex-direction: column;
   row-gap: clamp(12px, 1vh, 1vh);
-  height: 110%;
-  width: 40%;
+  height: 100%;
+  width: 30%;
 }
 .rowTransform .columnTransform:nth-child(1) {
   background-color: var(--color-dark-blue);
@@ -24,7 +24,7 @@
   padding: clamp(40px, 4vw, 4vw);
   color: var(--color-white);
   height: fit-content;
-  width: 60%;
+  width: 70%;
 }
 .rowTransform .columnTransform:nth-child(2) img {
   width: 100%;

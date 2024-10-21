@@ -2,7 +2,7 @@
   position: relative;
   height: 100vh;
   width: 100%;
-  padding: clamp(40px, 5vh, 5vh) 0;
+  padding: clamp(40px, 10vh, 10vh) 0;
 }
 .rowNews {
   display: flex;

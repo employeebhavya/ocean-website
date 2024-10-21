@@ -184,7 +184,9 @@ function HomeMain() {
       <NewsAndEvents />
       <Transform />
       <TestimonialHome />
-      <LogoScroll />
+      <section className={Styles.logoScroll}>
+        <LogoScroll />
+      </section>
       <Newsletter />
     </div>
   );
