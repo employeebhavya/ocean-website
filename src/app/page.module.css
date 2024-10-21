@@ -73,6 +73,7 @@
 .counterBox h3 {
   font-size: clamp(15px, 1vw, 1vw);
   font-weight: normal;
+  color: var(--color-dark-blue);
 }
 
 .counterBox p {
