@@ -1,0 +1,165 @@
+.recentProjects {
+  padding: clamp(40px, 5vh, 5vh) 0;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 5vw;
+}
+
+.leftColumn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.rightColumn {
+  flex: 2;
+  position: relative;
+  overflow: hidden;
+}
+
+.leftColumn h2 {
+  color: var(--color-dark-blue);
+}
+
+.arrowContainer {
+  display: flex;
+  gap: 1rem;
+  margin-top: clamp(15px, 5vh, 5vh);
+}
+
+.arrow {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.slider {
+  display: flex;
+  gap: 1vw;
+  transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+  min-width: calc((100% / 3) - 1vw);
+  transition: transform 0.5s ease-in-out;
+  display: flex;
+  flex-direction: column;
+}
+
+.carouselImage {
+  width: 100%;
+  border-radius: clamp(10px, 1vw, 1vw);
+}
+
+.projectInfo {
+  margin-top: clamp(12px, 2vh, 2vh);
+  text-align: left;
+}
+
+.projectInfo p {
+  color: #707070;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1024px) {
+  .container {
+    flex-direction: column; /* Stack on smaller screens */
+    align-items: flex-start;
+    row-gap: 5vw; /* Add space between the columns */
+  }
+
+  .rightColumn {
+    width: 100%;
+  }
+
+  .slider {
+    gap: 2vw; /* Slightly larger gap on smaller screens for better spacing */
+  }
+
+  .slide {
+    min-width: calc(100% / 2.2 - 2vw); /* Adjust for 2 slides on tablet */
+  }
+
+  .arrow {
+    width: 40px;
+    height: 40px;
+  }
+
+  .projectInfo {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .leftColumn h2 {
+    font-size: 1.75rem; /* Slightly reduce the heading size */
+  }
+
+  .description {
+    font-size: 0.9rem; /* Adjust font size for readability */
+  }
+
+  .arrow {
+    width: 35px;
+    height: 35px;
+  }
+
+  .slider {
+    gap: 3vw; /* Larger gap for smaller screens */
+  }
+
+  .slide {
+    min-width: calc(100% / 1.5 - 3vw); /* Show 1.5 slides on mobile */
+  }
+
+  .carouselImage {
+    border-radius: 8px;
+  }
+
+  .projectInfo {
+    margin-top: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .recentProjects {
+    padding: 20px 0;
+  }
+
+  .arrow {
+    width: 30px;
+    height: 30px;
+  }
+
+  .leftColumn h2 {
+    font-size: 1.5rem;
+  }
+
+  .description {
+    font-size: 0.85rem;
+  }
+
+  .slide {
+    min-width: calc(
+      100% / 1.2 - 3vw
+    ); /* Show 1.2 slides on very small screens */
+  }
+
+  .carouselImage {
+    border-radius: 6px;
+  }
+
+  .projectInfo {
+    margin-top: 6px;
+  }
+}
