@@ -4,7 +4,7 @@
   align-items: center;
   text-align: center;
   padding: clamp(10px, 0.7vw, 0.7vw) clamp(20px, 2vw, 2vw);
-  border-radius: 1vw;
+  border-radius: clamp(10px, 1vw, 1vw);
   position: fixed;
   z-index: 99;
   background: #fff;
@@ -133,7 +133,7 @@
   text-align: left;
 }
 .mobileMenuItem a {
-  font-size: clamp(25px, 2vw, 2vw);
+  font-size: clamp(20px, 2vw, 2vw);
   text-transform: uppercase;
   transition: all 0.3s ease;
   font-weight: 500;

@@ -2,15 +2,16 @@
 
 .formContainer {
   width: 100%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   row-gap: clamp(20px, 3vh, 3vh);
   background-color: #fff;
-  padding: clamp(20px, 1vw, 1vw);
+  padding: clamp(20px, 3vw, 3vw);
   border-radius: clamp(10px, 1vw, 1vw);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif;
 }
 
 .formContainer h2 {
@@ -35,11 +36,12 @@
 
 .textareaField {
   height: 150px;
+  font-family: "Neue Haas Grotesk Display Pro", sans-serif !important;
 }
 
 .submitButton {
   padding: 10px 20px;
-  background-color: #000;
+  background-color: var(--color-dark-blue);
   color: #fff;
   border: none;
   border-radius: 5px;

@@ -52,4 +52,7 @@
     grid-template-columns: 1fr;
     row-gap: 30px;
   }
+  .columnNews img {
+    margin-bottom: 15px;
+  }
 }

@@ -27,9 +27,10 @@ function NewsLayoutInner({
           <div className={styles.rowNewsLayoutInnerInner}>
             <div className={styles.breadcrumbNewsLayoutInner}>
               <Link href={breadcrumbLink}>
-                <span className="description">{breadcrumbText}</span>
+                <span className="description">{breadcrumbText}</span>{" "}
+                <LuChevronRight />
               </Link>
-              <LuChevronRight />
+
               <p className="description">{title}</p>
             </div>
             <h3 className="h3">{title}</h3>

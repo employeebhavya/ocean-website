@@ -119,4 +119,7 @@
   .columnProjects {
     width: 100% !important;
   }
+  .columnProjects .content {
+    right: 10%;
+  }
 }

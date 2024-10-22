@@ -38,9 +38,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 2px solid #000;
+  border: 2px solid var(--color-dark-blue);
   border-radius: 50%;
   cursor: pointer;
+  background-color: var(--color-dark-blue);
+  color: var(--color-white);
 }
 
 .slider {

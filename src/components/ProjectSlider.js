@@ -31,10 +31,16 @@ const ProjectSlider = () => {
 
   useEffect(() => {
     const slider = sliderRef.current;
+    const isMobile = window.innerWidth <= 768; // Adjust for mobile
+
+    // Adjust xPercent based on screen size
+    const slideWidth = isMobile ? 100 : 50; // 100% width on mobile, 50% on desktop
+    const gap = isMobile ? 15 : 17; // Set gap to 10px for desktop as well
+    const gapInPercent = (gap / window.innerWidth) * 100; // Convert gap to percentage
 
     // GSAP animation for smooth transition
     gsap.to(slider, {
-      xPercent: -currentIndex * 50,
+      xPercent: -currentIndex * (slideWidth + gapInPercent), // Subtract the gap from the slide movement
       duration: 1,
       ease: "power2.inOut",
     });

@@ -29,7 +29,7 @@ function Contact() {
                 </div>
               </div>
               <div className={styles.columnContact}>
-                <img src="/contact/map.png" alt="image" />
+                <img src="/contact/phone.png" alt="image" />
                 <div className={styles.content}>
                   <h5 className="h5">Call</h5>
                   <p className="description">
@@ -38,7 +38,7 @@ function Contact() {
                 </div>
               </div>
               <div className={styles.columnContact}>
-                <img src="/contact/map.png" alt="image" />
+                <img src="/contact/links.png" alt="image" />
                 <div className={styles.content}>
                   <h5 className="h5">Links</h5>
                   <p className="description">

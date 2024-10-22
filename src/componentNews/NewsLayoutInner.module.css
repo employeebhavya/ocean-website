@@ -29,6 +29,12 @@
 .breadcrumbNewsLayoutInner p {
   color: var(--color-orange);
 }
+.breadcrumbNewsLayoutInner a {
+  color: #7a7a7a;
+  display: flex;
+  align-items: center;
+  column-gap: 0.5vw;
+}
 .rowNewsLayoutInnerInner h3 {
   color: var(--color-dark-blue);
 }
@@ -88,5 +94,9 @@
   }
   .author {
     width: 100%;
+  }
+  .breadcrumbNewsLayoutInner p,
+  .breadcrumbNewsLayoutInner a span {
+    font-size: 12px;
   }
 }
