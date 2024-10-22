@@ -130,10 +130,10 @@ function Menu() {
 
       <div className={Styles.popupMenu} ref={popupMenuRef}>
         <div className={Styles.mobileLogo} style={{ display: "none" }}>
-          <Link href="/" style={{ visibility: "hidden" }}>
+          <Link href="/">
             <Image
-              className={Styles.logo}
-              src="/logo-web.png"
+              className={Styles.mobileLogoImage}
+              src="/mobile-menu.png"
               alt="Logo"
               width={209}
               height={52}
