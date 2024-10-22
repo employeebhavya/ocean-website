@@ -133,7 +133,7 @@ function Menu() {
           <Link href="/">
             <Image
               className={Styles.mobileLogoImage}
-              src="/mobile-menu-logo.png"
+              src="/mobile-menu-logo-1.png"
               alt="Logo"
               width={209}
               height={52}

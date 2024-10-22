@@ -255,4 +255,7 @@
   .mobileMenuItem a {
     color: #a5c6fc;
   }
+  .mobileMenuItem a {
+    text-transform: none;
+  }
 }
