@@ -215,7 +215,7 @@
     margin-bottom: 20px;
     border: solid 1px #5377b2;
     border-radius: 10px;
-    padding: 5px;
+    padding: 5px 10px;
     align-items: center;
   }
   .popupContentMenu button {
@@ -230,9 +230,6 @@
     font-size: 18px;
     transition: all 0.3s ease;
     border-radius: 10px;
-  }
-  .mobileLogo a {
-    padding: 3vw 4vw;
   }
   .mobileMenuItems {
     row-gap: 0px;
