@@ -126,14 +126,14 @@
 .mobileMenuItems {
   display: flex;
   flex-direction: column;
-  row-gap: clamp(20px, 5vh, 5vh);
+  row-gap: clamp(15px, 5vh, 5vh);
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-align: left;
 }
 .mobileMenuItem a {
-  font-size: clamp(20px, 2vw, 2vw);
+  font-size: clamp(18px, 2vw, 2vw);
   text-transform: uppercase;
   transition: all 0.3s ease;
   font-weight: 500;
@@ -204,5 +204,51 @@
   }
   .popupContentMenu > div:nth-child(2) {
     display: none;
+  }
+  .popupMenu {
+    flex-direction: column;
+  }
+  .mobileLogo {
+    display: flex !important;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    border: solid 1px #5377b2;
+    border-radius: 10px;
+    padding: 5px;
+    align-items: center;
+  }
+  .popupContentMenu button {
+    display: none;
+  }
+  .mobileLogo button {
+    padding: 15px 25px;
+    background: var(--color-grey);
+    border: none;
+    cursor: pointer;
+    color: #000;
+    font-size: 18px;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+  }
+  .mobileLogo a {
+    padding: 3vw 4vw;
+  }
+  .mobileMenuItems {
+    row-gap: 0px;
+  }
+  .mobileMenuItems li:not(:last-child) {
+    border-bottom: solid 1px #5377b2;
+  }
+  .mobileMenuItems li {
+    padding: 15px 0;
+  }
+  .popupContentMenu {
+    display: block;
+    padding: 0 20px;
+  }
+  .mobileMenuItem .mobileActive::after,
+  .mobileMenuItem a::after {
+    bottom: -17px;
   }
 }

@@ -7,7 +7,8 @@ import Styles from "./Menu.module.css";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { IoCloseCircle } from "react-icons/io5";
-import { RiMenu3Line } from "react-icons/ri"; // Importing the RiMenu3Line icon
+import { RiMenu3Line } from "react-icons/ri";
+import { RxCross1 } from "react-icons/rx";
 
 const MenuItems = [
   { name: "Home", path: "/" },
@@ -128,6 +129,20 @@ function Menu() {
       </div>
 
       <div className={Styles.popupMenu} ref={popupMenuRef}>
+        <div className={Styles.mobileLogo} style={{ display: "none" }}>
+          <Link href="/" style={{ visibility: "hidden" }}>
+            <Image
+              className={Styles.logo}
+              src="/logo-web.png"
+              alt="Logo"
+              width={209}
+              height={52}
+            />
+          </Link>
+          <button className={Styles.closeButtonMenu} onClick={togglePopup}>
+            <RxCross1 />
+          </button>
+        </div>
         <div className={Styles.popupContentMenu}>
           <div className={Styles.mobilemenu}>
             <ul className={Styles.mobileMenuItems} ref={mobileMenuRef}>
