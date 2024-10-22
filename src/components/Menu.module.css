@@ -249,7 +249,10 @@
     display: none;
   }
   .mobileLogoImage {
-    width: 50px;
+    width: 120px;
     height: auto;
+  }
+  .mobileMenuItem a {
+    color: #a5c6fc;
   }
 }
