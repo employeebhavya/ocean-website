@@ -170,21 +170,19 @@ function ScrollSection() {
                     className={Styles.circle}
                     ref={(el) => (circleRefs.current[0] = el)}
                   >
-                    <div className={Styles.circleText}>Interior Design</div>
+                    <div className={Styles.circleText}>Turnkey Solutions</div>
                   </div>
                   <div
                     className={Styles.circle}
                     ref={(el) => (circleRefs.current[1] = el)}
                   >
-                    <div className={Styles.circleText}>Design and Build</div>
+                    <div className={Styles.circleText}>Fit-Out Services</div>
                   </div>
                   <div
                     className={Styles.circle}
                     ref={(el) => (circleRefs.current[2] = el)}
                   >
-                    <div className={Styles.circleText}>
-                      Marine Infrastructure
-                    </div>
+                    <div className={Styles.circleText}>Civil Construction</div>
                   </div>
                 </div>
                 <div
@@ -195,13 +193,17 @@ function ScrollSection() {
                     className={Styles.circle}
                     ref={(el) => (circleRefs.current[3] = el)}
                   >
-                    <div className={Styles.circleText}>Civil Construction</div>
+                    <div className={Styles.circleText}>
+                      Real Estate Development
+                    </div>
                   </div>
                   <div
                     className={Styles.circle}
                     ref={(el) => (circleRefs.current[4] = el)}
                   >
-                    <div className={Styles.circleText}>Fit Outs</div>
+                    <div className={Styles.circleText}>
+                      Infrastructure Development
+                    </div>
                   </div>
                 </div>
               </div>

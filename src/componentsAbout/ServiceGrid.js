@@ -15,33 +15,33 @@ if (typeof window !== "undefined") {
 const services = [
   {
     id: 1,
-    title: "Interior Design",
+    title: "Turnkey Solutions",
     imgSrc: "/interior.png",
-    link: "/services/interior-design",
+    link: "/services/turnkey-solutions",
   },
   {
     id: 2,
-    title: "Design and Build",
-    imgSrc: "/designBuild.png",
-    link: "/services/design-and-build",
+    title: "Fit-Out Services",
+    imgSrc: "/fitOuts.png",
+    link: "/services/fit-out-services",
   },
   {
     id: 3,
-    title: "Marine Infrastructure",
-    imgSrc: "/marine.png",
-    link: "/services/marine-infrastructure",
-  },
-  {
-    id: 4,
-    title: "Fit Outs",
-    imgSrc: "/fitOuts.png",
-    link: "/services/fit-outs",
-  },
-  {
-    id: 5,
     title: "Civil Construction",
     imgSrc: "/civil.png",
     link: "/services/civil-construction",
+  },
+  {
+    id: 4,
+    title: "Real Estate Development",
+    imgSrc: "/designBuild.png",
+    link: "/services/real-estate-development",
+  },
+  {
+    id: 5,
+    title: "Infrastructure Development",
+    imgSrc: "/marine.png",
+    link: "/services/infrastructure-development",
   },
 ];
 

@@ -5,11 +5,11 @@ import Newsletter from "../../../components/Newsletter";
 function CivilConstruction() {
   // Define the dynamic content here
   const highlights = [
-    { img: "/services/li-1.png", text: "Enhance Ambiance" },
-    { img: "/services/li-2.png", text: "Highlight Architectural Features" },
-    { img: "/services/li-3.png", text: "Improve Functionality" },
-    { img: "/services/li-4.png", text: "Energy Efficiency" },
-    { img: "/services/li-5.png", text: "Enhance Aesthetics" },
+    { img: "/services/li-1.png", text: "Residential Construction" },
+    { img: "/services/li-2.png", text: "Commercial Construction" },
+    { img: "/services/li-3.png", text: "Industrial Construction" },
+    { img: "/services/li-4.png", text: "Earthworks & Excavation" },
+    { img: "/services/li-5.png", text: "Marine Infrastructure Construction" },
   ];
 
   const page2Projects = [
@@ -35,14 +35,14 @@ function CivilConstruction() {
       <HeaderInnerServices
         pageTitle="Civil Construction"
         serviceTitle="Civil Construction"
-        mainDescription="Ever since inception, Ocean Lifespaces has taken pride in its portfolio of completed Civil, Design, Interior and Turnkey works."
+        mainDescription="Reliable Civil Construction Services for Every Project."
         highlights={highlights}
         rightImage1="/services/civil1.png"
-        companyDescription1="We are Interior Design experts and our designs generated from the studios are the essence of artistry which has indeed earned an enormous goodwill in the area of interior design & build contracting."
-        companyDescription2="Having achieved a dominant position in the industry and having won the heart of numerous clients, Ocean has gathered all its expertise and grabbed opportunities for innovation and faster project delivery as one unified flow of work from initial concept through completion."
+        companyDescription1="Ocean’s civil construction services cover a wide range of projects, from residential buildings to commercial and industrial developments. Our team combines technical expertise with innovative solutions to deliver high-quality infrastructure that stands the test of time. We manage each project with a focus on safety, sustainability, and adherence to all regulatory standards."
+        // companyDescription2="Having achieved a dominant position in the industry and having won the heart of numerous clients, Ocean has gathered all its expertise and grabbed opportunities for innovation and faster project delivery as one unified flow of work from initial concept through completion."
         leftImage2="/services/civil2.png"
         rightImage2="/services/design3.png"
-        clientsList="Streamlining the project delivery through a single contract as a design and build solution, the team transforms its relationship with the clients into an alliance, which fosters collaboration and teamwork. United from the outset of every project, the team readily works to successfully complete a project faster, more cost effectively and with fewer changes. Some of our completed Design & Build projects have been developed for Cognizant, Ford, Thompson Reuters, IBM, Caterpillar, Synergy, Ajuba, Nestle, HLL, Wipro , Brigde i2i, Merck and more."
+        clientsList="Whether it’s building homes, offices, or specialized industrial facilities, we ensure that each project is completed to the highest standards. Our civil construction services extend to site preparation, foundation work, and beyond, ensuring that every phase of the construction process is completed with precision. We also provide tailored solutions for unique project requirements."
         transformationText="Transform your area with our design and accessory services, which combine expert advice and carefully chosen options to create a home that reflects your own style and personality."
       />
       <RecentProjects projects={page2Projects} />

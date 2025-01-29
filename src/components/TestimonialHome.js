@@ -16,28 +16,136 @@ const images = [
     id: 1,
     testiImage: "testimonial1.png",
     quoteImage: "/quote.png",
-    name: "Sheena James",
-    designation: "CEO, FLF Company",
+    name: "Mr. C.K. Narayanan",
+    designation: "CEO, Caterpillar",
     description:
-      "Ocean Lifespaces exceeded our expectations with their impeccable design expertise and unwavering commitment to quality. Their ability to blend functionality with aesthetic appeal transformed our workspace into an inspiring environment, fostering creativity and productivity among our team. They truly are the trusted partner we needed for our interior design needs.",
+      "Ocean Lifespaces India Private Limited is the best example of perfection. They have an excellent quality assurance system that ensures that the interiors remain fresh and new.",
   },
   {
-    id: 1,
-    testiImage: "testimonial1.png",
+    id: 2,
+    testiImage: "testimonial2.png",
     quoteImage: "/quote.png",
-    name: "Sheena James",
-    designation: "CEO, FLF Company",
+    name: "Mr. Suresh Aldrin",
+    designation: "Manager Facility",
     description:
-      "Ocean Lifespaces exceeded our expectations with their impeccable design expertise and unwavering commitment to quality. Their ability to blend functionality with aesthetic appeal transformed our workspace into an inspiring environment, fostering creativity and productivity among our team. They truly are the trusted partner we needed for our interior design needs.",
+      "We used Ocean Lifespaces India Private Limited's services at a very critical period when we were fighting against time to get the project completed. They took the project up like a challenge and completed it in a very short span of time.",
   },
   {
-    id: 1,
-    testiImage: "testimonial1.png",
+    id: 3,
+    testiImage: "testimonial3.png",
     quoteImage: "/quote.png",
-    name: "Sheena James",
-    designation: "CEO, FLF Company",
+    name: "Ms. Anitha Vaidhyanathan",
+    designation: "Manager Administration, Standard Chartered",
     description:
-      "Ocean Lifespaces exceeded our expectations with their impeccable design expertise and unwavering commitment to quality. Their ability to blend functionality with aesthetic appeal transformed our workspace into an inspiring environment, fostering creativity and productivity among our team. They truly are the trusted partner we needed for our interior design needs.",
+      "Perfect to the core. Ocean Lifespaces India Private Limited has won our complete trust and appreciation.",
+  },
+  {
+    id: 4,
+    testiImage: "testimonial4.png",
+    quoteImage: "/quote.png",
+    name: "Inautix",
+    designation: "",
+    description:
+      "What we like the most about Ocean Interiors is the fact that they are addicted to speed. Every project they take up is a challenge to them—a race to finish and a masterpiece to beautify.",
+  },
+  {
+    id: 5,
+    testiImage: "testimonial5.png",
+    quoteImage: "/quote.png",
+    name: "Royal Sundaram",
+    designation: "",
+    description:
+      "In our opinion, Ocean Interiors is a process-driven firm, dedicated to completing work exactly at the specified time, come what may. This dedication and commitment to timelines make us want to associate with them for future projects as well.",
+  },
+  {
+    id: 6,
+    testiImage: "testimonial6.png",
+    quoteImage: "/quote.png",
+    name: "Daimler",
+    designation: "",
+    description:
+      "Ocean Interiors Ltd has done a commendable job in terms of developing shop drawings, erecting interiors while maintaining quality, ensuring safety, and completing the project on time.",
+  },
+  {
+    id: 7,
+    testiImage: "testimonial7.png",
+    quoteImage: "/quote.png",
+    name: "HCL",
+    designation: "",
+    description:
+      "The interior work has been coordinated and executed professionally as per specification and completed successfully.",
+  },
+  {
+    id: 8,
+    testiImage: "testimonial8.png",
+    quoteImage: "/quote.png",
+    name: "Parksons",
+    designation: "",
+    description:
+      "Indeed, the entire Ocean team has given us memories to cherish forever by executing our first unit in the south region. Considering the scope of the project, it is highly commendable that the manufacturing facility was inaugurated on the target date.",
+  },
+  {
+    id: 9,
+    testiImage: "testimonial9.png",
+    quoteImage: "/quote.png",
+    name: "Panimalar Medical College Hospital & Research Institute",
+    designation: "Secretary & Correspondent",
+    description:
+      "Your extensive quality of work and efficiency in dealing with time and resources to complete the project with excellent standards is commendable.",
+  },
+  {
+    id: 10,
+    testiImage: "testimonial10.png",
+    quoteImage: "/quote.png",
+    name: "B. Ayyapan",
+    designation: "President",
+    description:
+      "I must appreciate Civil, Plumbing, Fire Fighting, Road works, PEB, and Interior Site teams for their dedicated efforts to shape an unforgettable milestone for us.",
+  },
+  {
+    id: 11,
+    testiImage: "testimonial11.png",
+    quoteImage: "/quote.png",
+    name: "Sitna Abraham",
+    designation: "Chief Manager",
+    description:
+      "M/s Ocean has maintained high quality and time standards, setting a benchmark in the industry that is difficult for others to emulate.",
+  },
+  {
+    id: 12,
+    testiImage: "testimonial12.png",
+    quoteImage: "/quote.png",
+    name: "Hari Krishnan Pratap",
+    designation: "Director",
+    description:
+      "We appreciate the personal involvement of Mr. Gopinath of Ocean Interiors in ensuring the completion of the project within the timeline to our utmost satisfaction.",
+  },
+  {
+    id: 13,
+    testiImage: "testimonial13.png",
+    quoteImage: "/quote.png",
+    name: "A. S. Anantha Padmanabhan",
+    designation: "Director",
+    description:
+      "We are glad to certify that they completed their work as per the tight time schedule specified by us, ensuring high-quality finishes. They have the ability to coordinate well with all agencies.",
+  },
+  {
+    id: 14,
+    testiImage: "testimonial14.png",
+    quoteImage: "/quote.png",
+    name: "Sathavalli G. Gopinath",
+    designation: "Country Director",
+    description:
+      "We are pleased to certify that they have completed the works on time and to the required standards and quality. The work was done to our complete satisfaction.",
+  },
+  {
+    id: 15,
+    testiImage: "testimonial15.png",
+    quoteImage: "/quote.png",
+    name: "R. Narasimhan",
+    designation: "Vice President & Branch Head",
+    description:
+      "Our experience with Ocean Lifespaces has been quite satisfactory, and they were able to complete the work with good standards and finishes.",
   },
 ];
 

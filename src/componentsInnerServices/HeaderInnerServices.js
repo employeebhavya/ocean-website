@@ -33,7 +33,7 @@ function HeaderInnerServices({
           </div>
           <div className={styles.row1HeaderInnerServices}>
             <div className={styles.columnRow1Is}>
-              <h3 className="h3">Executing Exceptional {pageTitle}</h3>
+              <h3 className="h3">Sub Services: {pageTitle}</h3>
               <ul>
                 {highlights.map((highlight, index) => (
                   <li key={index}>
