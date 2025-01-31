@@ -64,6 +64,9 @@
 .row4NewsLayoutInnerInner p {
   text-align: justify;
 }
+.row4NewsLayoutInnerInner p:not(:last-child) {
+  margin-bottom: clamp(12px, 1vh, 1vh);
+}
 .row5NewsLayoutInnerInner,
 .row6NewsLayoutInnerInner {
   display: flex;

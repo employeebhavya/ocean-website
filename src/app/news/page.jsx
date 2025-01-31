@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import styles from "./news.module.css";
-import InnerNews from "../../componentNews/InnerNews";
+import NewsAndEvents from "@/components/NewsAndEvents";
 
 function News() {
   return (
@@ -35,7 +35,7 @@ function News() {
           </div>
         </div>
       </section>
-      <InnerNews />
+      <NewsAndEvents list={7} />
     </>
   );
 }

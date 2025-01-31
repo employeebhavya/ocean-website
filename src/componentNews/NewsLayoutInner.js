@@ -13,8 +13,6 @@ function NewsLayoutInner({
   authorImage,
   mainImage,
   content,
-  title1,
-  title2,
   content1,
   content2,
   content3,
@@ -57,13 +55,7 @@ function NewsLayoutInner({
           </div>
           <div className={styles.row4NewsLayoutInnerInner}>
             <p className="description">{content}</p>
-          </div>
-          <div className={styles.row5NewsLayoutInnerInner}>
-            <h3 className="h3">{title1}</h3>
             <p className="description">{content1}</p>
-          </div>
-          <div className={styles.row6NewsLayoutInnerInner}>
-            <h3 className="h3">{title2}</h3>
             <p className="description">{content2}</p>
             <p className="description">{content3}</p>
             <p className="description">{content4}</p>

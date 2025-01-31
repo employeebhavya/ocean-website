@@ -35,81 +35,69 @@ const timeAgo = (date) => {
 const newsEvents = [
   {
     title:
-      "Ocean Lifespaces Wins Prestigious Contract to Redesign Tech Giant's Headquarters",
+      "Groundbreaking Ceremony for 30,000 Sq. Ft. Ground Floor Lobby Project in Taramani",
     description:
-      "Ocean Lifespaces secures a major project to transform the interior...",
+      "We are pleased to announce the successful Site Pooja for the Design and Build of the Ground Floor Lobby...",
     image: "/news1.png",
     date: "2024-08-28T09:00:00",
-    link: "/news/ocean-lifespaces-wins-contract-to-redesign-tech-giants-headquarters",
-  },
-  {
-    title: "Ocean Lifespaces Launches Sustainable Interior Design Initiative",
-    description:
-      "Introducing a new initiative focusing on eco-friendly interior design...",
-    image: "/news2.png",
-    date: "2024-09-25T08:50:00",
-    link: "/news/ocean-lifespaces-wins-contract-to-redesign-tech-giants-headquarters",
+    link: "/news/groundbreaking-ceremony",
   },
   {
     title:
-      "Ocean Lifespaces Celebrates 28 Years of Excellence in Interior Design",
+      "Ocean Lifespaces Partners with Vestian for a Landmark Workplace Project in Chennai",
     description:
-      "Reflecting on 28 years of delivering exceptional interior design services...",
+      "We are proud to announce our partnership with Vestian Global Workplace Services Pvt Ltd for the interiors...",
+    image: "/news2.png",
+    date: "2024-09-25T08:50:00",
+    link: "/news/ocean-lifespaces-partners",
+  },
+  {
+    title: "Spreading Christmas Cheer at Ocean Lifespaces!",
+    description:
+      "The holiday spirit was in full swing at Ocean Lifespaces as our office transformed into a winter wonderland...",
     image: "/news3.png",
     date: "2024-06-28T08:40:00",
-    link: "/news/ocean-lifespaces-wins-contract-to-redesign-tech-giants-headquarters",
+    link: "/news/spreading-christmas-cheer-at-ocean-lifespaces",
   },
   {
-    title: "New Branch Opening in Downtown",
+    title:
+      "Ocean Lifespaces at CoreNet Global India Conference 2024 - Bengaluru",
     description:
-      "Ocean Lifespaces opens a new branch in downtown city to serve more clients...",
+      "Ocean Lifespaces made a remarkable presence at the CoreNet Global India Conference 2024, held at Conrad Bangalore...",
     image: "/news/news1.png",
     date: "2024-06-25T12:00:00",
-    link: "/news/ocean-lifespaces-wins-contract-to-redesign-tech-giants-headquarters",
+    link: "/news/cornet-global-india-conference",
   },
   {
-    title: "Ocean Lifespaces Participates in Design Expo",
+    title:
+      "Pongal Celebrations at Ocean Lifespaces: Harvesting Joy and Prosperity!",
     description:
-      "Showcasing our latest sustainable design projects at the annual expo...",
+      "At Ocean Lifespaces, we embrace traditions that bring us together and celebrate the spirit of unity, gratitude...",
     image: "/news/news2.png",
     date: "2024-06-27T15:30:00",
-    link: "/news/ocean-lifespaces-wins-contract-to-redesign-tech-giants-headquarters",
+    link: "/news/pongal-celebration",
   },
   {
-    title: "Award for Best Residential Design 2024",
+    title:
+      "Successful Completion of Protective Coating Project at a Mission-Critical Nuclear Power Plant",
     description:
-      "Ocean Lifespaces wins the award for the best residential design of 2024...",
+      "We are proud to announce the successful application of protective and antifouling coating on a hydro-technical...",
     image: "/news/news3.png",
     date: "2024-06-26T14:15:00",
-    link: "/news/ocean-lifespaces-wins-contract-to-redesign-tech-giants-headquarters",
+    link: "/news/protective-coating-project",
   },
   {
-    title: "Collaboration with GreenSpace for Eco Designs",
+    title:
+      "Ocean Lifespaces Secures General Contracting Project for 55,000 Sq. Ft. Office Space in Hyderabad",
     description:
-      "Announcing a collaboration with GreenSpace to innovate sustainable interiors...",
+      "We are excited to announce our latest project win – the General Contracting of a 55,000 sq. ft. office space...",
     image: "/news/news4.png",
     date: "2024-06-20T10:00:00",
-    link: "/news/ocean-lifespaces-wins-contract-to-redesign-tech-giants-headquarters",
-  },
-  {
-    title: "Ocean Lifespaces to Redesign City Hall",
-    description:
-      "Partnering with the government to redesign the city hall with modern concepts...",
-    image: "/news2.png",
-    date: "2024-06-18T09:00:00",
-    link: "/news/ocean-lifespaces-wins-contract-to-redesign-tech-giants-headquarters",
-  },
-  {
-    title: "New Virtual Design Consultation Service",
-    description:
-      "Launching our new virtual design consultation service to clients worldwide...",
-    image: "/news3.png",
-    date: "2024-06-15T13:00:00",
-    link: "/news/ocean-lifespaces-wins-contract-to-redesign-tech-giants-headquarters",
+    link: "/news/general-contracting-project",
   },
 ];
 
-const NewsAndEvents = () => {
+const NewsAndEvents = ({ list = 3 }) => {
   const [latestNews, setLatestNews] = useState([]);
   const newsEventsRef = useRef(null);
   const headingRef = useRef(null);
@@ -123,8 +111,8 @@ const NewsAndEvents = () => {
     const sortedNews = [...newsEvents].sort(
       (a, b) => new Date(b.date) - new Date(a.date)
     );
-    setLatestNews(sortedNews.slice(0, 3));
-  }, []);
+    setLatestNews(sortedNews.slice(0, list));
+  }, [list]);
 
   useLayoutEffect(() => {
     if (
