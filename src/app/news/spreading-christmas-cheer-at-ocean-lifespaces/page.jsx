@@ -2,6 +2,7 @@
 import { LuChevronRight } from "react-icons/lu";
 import SocialShare from "../../../componentNews/SocialShare";
 import React from "react";
+import Link from "next/link";
 
 function ChristmasCelebration() {
   return (
@@ -11,12 +12,12 @@ function ChristmasCelebration() {
           <div className="rowMainNewsLayoutInnerInner">
             <div className="rowNewsLayoutInnerInner">
               <div className="breadcrumbNewsLayoutInner">
-                <a href="/projects" className="description">
+                <Link href="/projects" className="description">
                   News and Events
                   <span className="chevronRight">
                     <LuChevronRight />
                   </span>
-                </a>
+                </Link>
 
                 <p className="description">
                   Spreading Christmas Cheer at Ocean Lifespaces!
@@ -26,7 +27,7 @@ function ChristmasCelebration() {
                 Spreading Christmas Cheer at Ocean Lifespaces!
               </h3>
             </div>
-            <div className="row2NewsLayoutInnerInner">
+            {/* <div className="row2NewsLayoutInnerInner">
               <div className="author">
                 <img className="authorImage" src="/news/in1.png" alt="author" />
                 <div className="contentAuthor">
@@ -40,9 +41,28 @@ function ChristmasCelebration() {
               <div className="socialShare">
                 <SocialShare />
               </div>
-            </div>
-            <div className="row3NewsLayoutInnerInner">
-              <img className="mainImage" src="/news/in2.png" alt="main image" />
+            </div> */}
+            <div className="row3NewsLayoutInnerInner two">
+              <img
+                className="mainImage"
+                src="/news/christmas1.png"
+                alt="main image"
+              />
+              <img
+                className="mainImage"
+                src="/news/christmas2.png"
+                alt="main image"
+              />
+              <img
+                className="mainImage"
+                src="/news/christmas3.png"
+                alt="main image"
+              />
+              <img
+                className="mainImage"
+                src="/news/christmas4.png"
+                alt="main image"
+              />
             </div>
             <div className="row4NewsLayoutInnerInner">
               <p className="description">

@@ -38,7 +38,7 @@ const newsEvents = [
       "Groundbreaking Ceremony for 30,000 Sq. Ft. Ground Floor Lobby Project in Taramani",
     description:
       "We are pleased to announce the successful Site Pooja for the Design and Build of the Ground Floor Lobby...",
-    image: "/news1.png",
+    image: "/news1.jpeg",
     date: "2024-08-28T09:00:00",
     link: "/news/groundbreaking-ceremony",
   },
@@ -47,7 +47,7 @@ const newsEvents = [
       "Ocean Lifespaces Partners with Vestian for a Landmark Workplace Project in Chennai",
     description:
       "We are proud to announce our partnership with Vestian Global Workplace Services Pvt Ltd for the interiors...",
-    image: "/news2.png",
+    image: "/news2.jpeg",
     date: "2024-09-25T08:50:00",
     link: "/news/ocean-lifespaces-partners",
   },
@@ -55,7 +55,7 @@ const newsEvents = [
     title: "Spreading Christmas Cheer at Ocean Lifespaces!",
     description:
       "The holiday spirit was in full swing at Ocean Lifespaces as our office transformed into a winter wonderland...",
-    image: "/news3.png",
+    image: "/news3.jpeg",
     date: "2024-06-28T08:40:00",
     link: "/news/spreading-christmas-cheer-at-ocean-lifespaces",
   },
@@ -64,7 +64,7 @@ const newsEvents = [
       "Ocean Lifespaces at CoreNet Global India Conference 2024 - Bengaluru",
     description:
       "Ocean Lifespaces made a remarkable presence at the CoreNet Global India Conference 2024, held at Conrad Bangalore...",
-    image: "/news/news1.png",
+    image: "/news4.png",
     date: "2024-06-25T12:00:00",
     link: "/news/cornet-global-india-conference",
   },
@@ -73,7 +73,7 @@ const newsEvents = [
       "Pongal Celebrations at Ocean Lifespaces: Harvesting Joy and Prosperity!",
     description:
       "At Ocean Lifespaces, we embrace traditions that bring us together and celebrate the spirit of unity, gratitude...",
-    image: "/news/news2.png",
+    image: "/news5.png",
     date: "2024-06-27T15:30:00",
     link: "/news/pongal-celebration",
   },
@@ -82,7 +82,7 @@ const newsEvents = [
       "Successful Completion of Protective Coating Project at a Mission-Critical Nuclear Power Plant",
     description:
       "We are proud to announce the successful application of protective and antifouling coating on a hydro-technical...",
-    image: "/news/news3.png",
+    image: "/news6.png",
     date: "2024-06-26T14:15:00",
     link: "/news/protective-coating-project",
   },
@@ -90,8 +90,8 @@ const newsEvents = [
     title:
       "Ocean Lifespaces Secures General Contracting Project for 55,000 Sq. Ft. Office Space in Hyderabad",
     description:
-      "We are excited to announce our latest project win – the General Contracting of a 55,000 sq. ft. office space...",
-    image: "/news/news4.png",
+      "We are excited to announce our latest project win - the General Contracting of a 55,000 sq. ft. office space...",
+    image: "/news7.png",
     date: "2024-06-20T10:00:00",
     link: "/news/general-contracting-project",
   },

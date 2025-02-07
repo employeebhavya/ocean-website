@@ -2,6 +2,7 @@
 import { LuChevronRight } from "react-icons/lu";
 import SocialShare from "../../../componentNews/SocialShare";
 import React from "react";
+import Link from "next/link";
 
 function CoreNetConference2024() {
   return (
@@ -11,24 +12,24 @@ function CoreNetConference2024() {
           <div className="rowMainNewsLayoutInnerInner">
             <div className="rowNewsLayoutInnerInner">
               <div className="breadcrumbNewsLayoutInner">
-                <a href="/projects" className="description">
+                <Link href="/projects" className="description">
                   News and Events
                   <span className="chevronRight">
                     <LuChevronRight />
                   </span>
-                </a>
+                </Link>
 
                 <p className="description">
-                  Ocean Lifespaces at CoreNet Global India Conference 2024 –
+                  Ocean Lifespaces at CoreNet Global India Conference 2024 -
                   Bengaluru
                 </p>
               </div>
               <h3 className="h3">
-                Ocean Lifespaces at CoreNet Global India Conference 2024 –
+                Ocean Lifespaces at CoreNet Global India Conference 2024 -
                 Bengaluru
               </h3>
             </div>
-            <div className="row2NewsLayoutInnerInner">
+            {/* <div className="row2NewsLayoutInnerInner">
               <div className="author">
                 <img className="authorImage" src="/news/in1.png" alt="author" />
                 <div className="contentAuthor">
@@ -42,9 +43,13 @@ function CoreNetConference2024() {
               <div className="socialShare">
                 <SocialShare />
               </div>
-            </div>
+            </div> */}
             <div className="row3NewsLayoutInnerInner">
-              <img className="mainImage" src="/news/in2.png" alt="main image" />
+              <img
+                className="mainImage half"
+                src="/news/cornet1.png"
+                alt="main image"
+              />
             </div>
             <div className="row4NewsLayoutInnerInner">
               <p className="description">
@@ -60,12 +65,12 @@ function CoreNetConference2024() {
               </p>
               <ul className="description">
                 <li>
-                  Neeta Khanapure – Managing Director, Aetrio Architects Private
+                  Neeta Khanapure - Managing Director, Aetrio Architects Private
                   Limited
                 </li>
-                <li>Mohanroop – VP, Client Engagement & Solutions</li>
-                <li>Monica Agarwal – VP, Client Engagement & Solutions</li>
-                <li>Ruchita Dutta – AVP, Client Engagement & Solutions</li>
+                <li>Mohanroop - VP, Client Engagement & Solutions</li>
+                <li>Monica Agarwal - VP, Client Engagement & Solutions</li>
+                <li>Ruchita Dutta - AVP, Client Engagement & Solutions</li>
               </ul>
               <p className="description">
                 The conference was an excellent opportunity to engage with

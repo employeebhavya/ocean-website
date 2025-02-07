@@ -2,6 +2,7 @@
 import { LuChevronRight } from "react-icons/lu";
 import SocialShare from "../../../componentNews/SocialShare";
 import React from "react";
+import Link from "next/link";
 
 function GeneralContractingProject() {
   return (
@@ -11,12 +12,12 @@ function GeneralContractingProject() {
           <div className="rowMainNewsLayoutInnerInner">
             <div className="rowNewsLayoutInnerInner">
               <div className="breadcrumbNewsLayoutInner">
-                <a href="/projects" className="description">
+                <Link href="/projects" className="description">
                   News and Events
                   <span className="chevronRight">
                     <LuChevronRight />
                   </span>
-                </a>
+                </Link>
 
                 <p className="description">
                   Ocean Lifespaces Secures General Contracting Project for
@@ -28,7 +29,7 @@ function GeneralContractingProject() {
                 Sq. Ft. Office Space in Hyderabad
               </h3>
             </div>
-            <div className="row2NewsLayoutInnerInner">
+            {/* <div className="row2NewsLayoutInnerInner">
               <div className="author">
                 <img className="authorImage" src="/news/in1.png" alt="author" />
                 <div className="contentAuthor">
@@ -42,10 +43,10 @@ function GeneralContractingProject() {
               <div className="socialShare">
                 <SocialShare />
               </div>
-            </div>
-            <div className="row3NewsLayoutInnerInner">
+            </div> */}
+            {/* <div className="row3NewsLayoutInnerInner">
               <img className="mainImage" src="/news/in2.png" alt="main image" />
-            </div>
+            </div> */}
             <div className="row4NewsLayoutInnerInner">
               <p className="description">
                 We are excited to announce our latest project win – the General
