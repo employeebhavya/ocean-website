@@ -18,12 +18,12 @@ const Members = [
   },
   {
     image: "/about/team2.png",
-    title: "Mr. Arul",
+    title: "Mr. Arul Arumugam",
     description: "Director",
   },
   {
     image: "/about/team3.png",
-    title: "Mr. Nandakrishnan",
+    title: "Mr. T. Nandakrishnan",
     description: "Director",
   },
   {

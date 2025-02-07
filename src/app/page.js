@@ -91,10 +91,10 @@ function HomeMain() {
 
   const startCounting = () => {
     const targets = [
-      { id: "employees", end: 500 },
-      { id: "projects", end: 350 },
-      { id: "experience", end: 23 },
-      { id: "ongoing", end: 20 },
+      { id: "employees", end: 1000 },
+      { id: "projects", end: 60 },
+      { id: "experience", end: 28 },
+      { id: "ongoing", end: 500 },
     ];
 
     targets.forEach((target) => {
@@ -147,19 +147,19 @@ function HomeMain() {
                 <div ref={counterRef} className={Styles.counterSection}>
                   <div className={Styles.counterBox}>
                     <h3>Number of Employees</h3>
-                    <p>{counters.employees}</p>
+                    <p>{counters.employees}+</p>
                   </div>
                   <div className={Styles.counterBox}>
-                    <h3>Number of Projects</h3>
-                    <p>{counters.projects}</p>
+                    <h3>Client Return Rate</h3>
+                    <p>{counters.projects}%</p>
                   </div>
                   <div className={Styles.counterBox}>
-                    <h3>Years of Experience</h3>
+                    <h3>Years in Operation</h3>
                     <p>{counters.experience}</p>
                   </div>
                   <div className={Styles.counterBox}>
-                    <h3>Ongoing Projects</h3>
-                    <p>{counters.ongoing}</p>
+                    <h3>Projects Completed</h3>
+                    <p>{counters.ongoing}+</p>
                   </div>
                 </div>
               </div>
