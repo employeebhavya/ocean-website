@@ -17,7 +17,7 @@ function Projects() {
                 <p className="description">
                   Chennai | Area - 3,50,000 sq ft | Cost: 99.68 Cr
                 </p>
-                <Link href="/projects/logica">
+                <Link href="/projects/dell-project-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>
@@ -29,7 +29,7 @@ function Projects() {
                 <p className="description">
                   Chennai | Area - 3,50,000 sq ft | Cost: 99.68 Cr
                 </p>
-                <Link href="/projects/logica">
+                <Link href="/projects/dell-project-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>
@@ -43,7 +43,7 @@ function Projects() {
                 <p className="description">
                   Chennai | Area - 3,50,000 sq ft | Cost: 99.68 Cr
                 </p>
-                <Link href="/projects/logica">
+                <Link href="/projects/dell-project-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>
@@ -55,7 +55,7 @@ function Projects() {
                 <p className="description">
                   Chennai | Area - 3,50,000 sq ft | Cost: 99.68 Cr
                 </p>
-                <Link href="/projects/logica">
+                <Link href="/projects/dell-project-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>
@@ -67,7 +67,7 @@ function Projects() {
                 <p className="description">
                   Chennai | Area - 3,50,000 sq ft | Cost: 99.68 Cr
                 </p>
-                <Link href="/projects/logica">
+                <Link href="/projects/dell-project-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>
@@ -81,7 +81,7 @@ function Projects() {
                 <p className="description">
                   Chennai | Area - 3,50,000 sq ft | Cost: 99.68 Cr
                 </p>
-                <Link href="/projects/logica">
+                <Link href="/projects/dell-project-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>
@@ -95,7 +95,7 @@ function Projects() {
                 <p className="description">
                   Chennai | Area - 3,50,000 sq ft | Cost: 99.68 Cr
                 </p>
-                <Link href="/projects/logica">
+                <Link href="/projects/dell-project-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>
@@ -107,7 +107,7 @@ function Projects() {
                 <p className="description">
                   Chennai | Area - 3,50,000 sq ft | Cost: 99.68 Cr
                 </p>
-                <Link href="/projects/logica">
+                <Link href="/projects/dell-project-bangalore">
                   <span> Learn More</span> <MdOutlineArrowRightAlt />
                 </Link>
               </div>
